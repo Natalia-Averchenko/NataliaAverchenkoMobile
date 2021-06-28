@@ -22,9 +22,7 @@ public class PageObject implements IPageObject {
                 break;
             default: throw new Exception("Can't create a page object for "+appType);
         }
-
     }
-
 
     @Override
     public WebElement getWelement(String weName) throws NoSuchFieldException, IllegalAccessException {
